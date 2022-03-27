@@ -24,3 +24,5 @@
 27.3.2022, 16:21:20 - DEBUG - auth.service - signup with username: Ben, fullname: Ben Isayev (sid: B3dDJmCUoBa0ZndIPnAs8zGagk0tAHEh)
 27.3.2022, 16:21:20 - DEBUG - auth.route - new account created: {"username":"Ben","password":"$2b$10$hrdJDtdkwk8ZoL8nfkQJded9T1uxOUJnb/mw5qk2PYjP3uqvP/.q2","fullname":"Ben Isayev","isAdmin":false,"_id":"624064d0c5fa8f34bf54c9ed"} (sid: B3dDJmCUoBa0ZndIPnAs8zGagk0tAHEh)
 27.3.2022, 16:21:20 - DEBUG - auth.service - login with username: Ben (sid: B3dDJmCUoBa0ZndIPnAs8zGagk0tAHEh)
+3/27/2022, 6:00:12 PM - INFO - Server is running on port: 3030 
+3/27/2022, 6:02:01 PM - INFO - Server is running on port: 3030 
