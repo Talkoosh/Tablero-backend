@@ -2,9 +2,9 @@ const authService = require('./auth.service');
 const logger = require('../../services/logger.service');
 
 async function login(req, res) {
-  const { username, password } = req.body;
+  const { email, password } = req.body;
   try {
-    const user = await authService.login(username, password);
+    const user = await authService.login(email, password);
     req.session.user = user;
     res.json(user);
   } catch (err) {
@@ -15,13 +15,15 @@ async function login(req, res) {
 
 async function signup(req, res) {
   try {
-    const { username, password, fullname } = req.body;
-    const account = await authService.signup(username, password, fullname);
+    const { username, password, email } = req.body;
+    const account = await authService.signup(username, password, email);
+    console.log(account)
     logger.debug(
       `auth.route - new account created: ` + JSON.stringify(account)
     );
-    const user = await authService.login(username, password);
+    const user = await authService.login(email, password);
     req.session.user = user;
+    console.log(user)
     res.json(user);
   } catch (err) {
     logger.error('Failed to signup ' + err);

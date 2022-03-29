@@ -7,6 +7,7 @@ module.exports = {
   query,
   getById,
   getByUsername,
+  getByEmail,
   remove,
   update,
   add,
@@ -61,6 +62,17 @@ async function getByUsername(username) {
     throw err;
   }
 }
+async function getByEmail(email) {
+  try {
+    const collection = await dbService.getCollection('user');
+    const user = await collection.findOne({ email });
+    console.log('getByEmail in user service', user)
+    return user;
+  } catch (err) {
+    logger.error(`while finding user ${username}`, err);
+    throw err;
+  }
+}
 
 async function remove(userId) {
   try {
@@ -78,7 +90,7 @@ async function update(user) {
     const userToSave = {
       _id: ObjectId(user._id), // needed for the returnd obj
       username: user.username,
-      fullname: user.fullname,
+      email: user.email,
       isAdmin: user.isAdmin,
     };
     const collection = await dbService.getCollection('user');
@@ -93,10 +105,11 @@ async function update(user) {
 async function add(user) {
   try {
     // peek only updatable fields!
+    console.log('user from user service in add func', user)
     const userToAdd = {
       username: user.username,
       password: user.password,
-      fullname: user.fullname,
+      email: user.email,
       isAdmin: false,
     };
     const collection = await dbService.getCollection('user');
@@ -117,12 +130,9 @@ function _buildCriteria(filterBy) {
         username: txtCriteria,
       },
       {
-        fullname: txtCriteria,
+        email: txtCriteria,
       },
     ];
-  }
-  if (filterBy.minBalance) {
-    criteria.score = { $gte: filterBy.minBalance };
   }
   return criteria;
 }
