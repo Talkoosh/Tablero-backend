@@ -211,3 +211,5 @@
 28.3.2022, 22:45:49 - DEBUG - auth.service - login with email: Ben@gmail.com (sid: k6s919zLNAKHWRz6pO2Zxx--l2ZdyVpL)
 28.3.2022, 22:45:50 - ERROR - Failed to Login Invalid email or password (sid: k6s919zLNAKHWRz6pO2Zxx--l2ZdyVpL)
 28.3.2022, 22:46:19 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: k6s919zLNAKHWRz6pO2Zxx--l2ZdyVpL)
+3/27/2022, 6:00:12 PM - INFO - Server is running on port: 3030 
+3/27/2022, 6:02:01 PM - INFO - Server is running on port: 3030 
