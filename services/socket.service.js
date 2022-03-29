@@ -10,12 +10,10 @@ function connectSockets(http, session) {
     },
   });
   gIo.on('connection', (socket) => {
-    console.log('New socket', socket.id);
-    console.log('hi');
     socket.on('disconnect', (socket) => {
       console.log('Someone disconnected');
-    });
-    socket.on('chat board', (boardId) => {
+    });             
+    socket.on('board-entered', (boardId) => {
       if (socket.currBoardId === boardId) return;
       if (socket.currBoardId) {
         socket.leave(socket.currBoardId);
@@ -23,12 +21,13 @@ function connectSockets(http, session) {
       socket.join(boardId);
       socket.currBoardId = boardId;
     });
-    socket.on('chat newMsg', (msg) => {
-      console.log('Emitting Chat msg', msg);
+    socket.on('board-updated', () => {
       // emits to all sockets:
       // gIo.emit('chat addMsg', msg)
       // emits only to sockets in the same room
-      gIo.to(socket.currBoardId).emit('chat addMsg', msg);
+      // gIo.to(socket.currBoardId).emit('chat addMsg', msg);
+      socket.broadcast.to(socket.currBoardId).emit('update-board');
+
     });
     socket.on('user-watch', (userId) => {
       socket.join('watching:' + userId);
@@ -48,6 +47,7 @@ function connectSockets(http, session) {
       gIo.emit('updated:', event);
     });
   });
+
 }
 
 function emitTo({ type, data, label }) {

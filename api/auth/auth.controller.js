@@ -17,13 +17,11 @@ async function signup(req, res) {
   try {
     const { username, password, email } = req.body;
     const account = await authService.signup(username, password, email);
-    console.log(account)
     logger.debug(
       `auth.route - new account created: ` + JSON.stringify(account)
     );
     const user = await authService.login(email, password);
     req.session.user = user;
-    console.log(user)
     res.json(user);
   } catch (err) {
     logger.error('Failed to signup ' + err);

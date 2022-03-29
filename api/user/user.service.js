@@ -66,7 +66,6 @@ async function getByEmail(email) {
   try {
     const collection = await dbService.getCollection('user');
     const user = await collection.findOne({ email });
-    console.log('getByEmail in user service', user)
     return user;
   } catch (err) {
     logger.error(`while finding user ${username}`, err);
@@ -105,7 +104,6 @@ async function update(user) {
 async function add(user) {
   try {
     // peek only updatable fields!
-    console.log('user from user service in add func', user)
     const userToAdd = {
       username: user.username,
       password: user.password,

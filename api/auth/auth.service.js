@@ -3,7 +3,6 @@ const userService = require('../user/user.service');
 const logger = require('../../services/logger.service');
 
 async function login(email, password) {
-  console.log(email, password)
   logger.debug(`auth.service - login with email: ${email}`);
 
   const user = await userService.getByEmail(email);
