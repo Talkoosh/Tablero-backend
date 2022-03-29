@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+=======
+3/29/2022, 2:32:04 PM - INFO - Server is running on port: 3030 
+3/29/2022, 2:34:46 PM - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 2:34:46 PM - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 2:36:57 PM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 2:40:31 PM - DEBUG - auth.service - signup with username: check, email: a@gmail.com (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 2:40:32 PM - DEBUG - auth.route - new account created: {"username":"check","password":"$2b$10$DGgvD2tFVWMDp.XtVLdvhOmtUy.NAMRORIjugs.xwblYt4tl8VUay","email":"a@gmail.com","isAdmin":false,"_id":"6242f0301b6362a665028a00"} (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 2:40:32 PM - DEBUG - auth.service - login with email: a@gmail.com (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 2:41:27 PM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: xTHnlAFGhpAVr8fdq7Tm8Sqfo5kArOtD)
+3/29/2022, 3:10:40 PM - INFO - Server is running on port: 3030 
+3/29/2022, 3:11:03 PM - INFO - Server is running on port: 3030 
+3/29/2022, 3:13:25 PM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: vykub1p-pvgbhe12mxugJ962tVtTaS_V)
+3/29/2022, 4:26:19 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:29:28 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:29:28 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:29:42 PM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: z9AviVr7s3MayvNu1OUbsq1kVAK2Ew5o)
+3/29/2022, 4:31:07 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:31:07 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:31:19 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:42:15 PM - INFO - Server is running on port: 3030 
+3/29/2022, 4:42:18 PM - INFO - Server is running on port: 3030 
+>>>>>>> be814d5f03d6d605f19587020c89f99fd7c92580
