@@ -37,7 +37,6 @@ async function addReview(req, res) {
     var review = req.body;
     review.userId = req.session.user._id;
     review = await reviewService.add(review);
-    console.log(review);
     // prepare the updated review for sending out
     // review.aboutUser = await userService.getById(review.aboutUserId);
 

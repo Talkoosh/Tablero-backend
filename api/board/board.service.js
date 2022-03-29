@@ -2,71 +2,12 @@ const dbService = require('../../services/db.service');
 const logger = require('../../services/logger.service');
 const ObjectId = require('mongodb').ObjectId;
 
-async function query() {
+async function query(user) {
   try {
-    // const criteria = _buildCriteria()
-    // const collection = await dbService.getCollection('board');
-    // console.log('criteria', criteria);
-    // const reviews = await collection.find(criteria).toArray();
-    // var boards = await collection
-    //   .aggregate([
-    //     {
-    //       $match: criteria,
-    //     },
-    // {
-    //   $addFields: {
-    //     userObjId: { $toObjectId: '$userId' },
-    //     toyObjId: { $toObjectId: '$toyId' },
-    //   },
-    // },
-    //   {
-    //     $lookup: {
-    //       from: 'user',
-    //       localField: 'userObjId',
-    //       foreignField: '_id',
-    //       as: 'byUser',
-    //     },
-    //   },
-    //   {
-    //     $unwind: '$byUser',
-    //   },
-    //   {
-    //     $lookup: {
-    //       from: 'toy',
-    //       localField: 'toyObjId',
-    //       foreignField: '_id',
-    //       as: 'aboutToy',
-    //     },
-    //   },
-    //   {
-    //     $unwind: '$aboutToy',
-    //   },
-    //   {
-    //     $project: {
-    //       content: 1,
-    //       byUser: { _id: 1, username: 1 },
-    //       aboutToy: { _id: 1, name: 1, price: 1 },
-    //     },
-    //   },
-    // ])
-    // .toArray();
-    // const criteria = _buildCriteria(filterBy)
-    // const criteria = {};
-
-    // const collection = await dbService.getCollection('board');
-    // var boards = await collection.find(criteria).toArray();
-    // return boards;
-    try {
-      // const criteria = _buildCriteria(filterBy)
-      const criteria = {};
-
-      const collection = await dbService.getCollection('board');
-      var boards = await collection.find(criteria).toArray();
-      return boards;
-    } catch (err) {
-      logger.error('cannot find boards', err);
-      throw err;
-    }
+    const filterCriteria = _buildCriteria(user);
+    const collection = await dbService.getCollection('board');
+    var boards = await collection.find(filterCriteria).toArray();
+    return boards;
   } catch (err) {
     logger.error('cannot find boards', err);
     throw err;
@@ -119,9 +60,14 @@ async function update(board) {
   }
 }
 
-function _buildCriteria(userId) {
+function _buildCriteria(user) {
   const criteria = {};
-  criteria._id = userId
+  user = JSON.parse(JSON.stringify(user))
+  if (!user._id) {
+    criteria.members = { '$elemMatch': { "_id": "u123" } }
+  } else if (user) {
+    criteria.members = { '$elemMatch': { "_id": user._id } }
+  }
   return criteria
 }
 
