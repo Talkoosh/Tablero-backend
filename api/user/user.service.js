@@ -109,6 +109,7 @@ async function add(user) {
       password: user.password,
       email: user.email,
       isAdmin: false,
+      imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU'
     };
     const collection = await dbService.getCollection('user');
     await collection.insertOne(userToAdd);
@@ -121,8 +122,8 @@ async function add(user) {
 
 function _buildCriteria(filterBy) {
   const criteria = {};
-  if (filterBy.txt) {
-    const txtCriteria = { $regex: filterBy.txt, $options: 'i' };
+  if (filterBy.searchName) {
+    const txtCriteria = { $regex: filterBy.searchName, $options: 'i' };
     criteria.$or = [
       {
         username: txtCriteria,

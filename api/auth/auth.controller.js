@@ -16,7 +16,8 @@ async function login(req, res) {
 async function signup(req, res) {
   try {
     const { username, password, email } = req.body;
-    const account = await authService.signup(username, password, email);
+    const imgUrl = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU'
+    const account = await authService.signup(username, password, email, imgUrl);
     logger.debug(
       `auth.route - new account created: ` + JSON.stringify(account)
     );
