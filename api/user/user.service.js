@@ -25,6 +25,7 @@ async function query(filterBy = {}) {
       // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
       return user;
     });
+    if (users.length === collection.length) return []
     return users;
   } catch (err) {
     logger.error('cannot find users', err);
@@ -121,8 +122,8 @@ async function add(user) {
 
 function _buildCriteria(filterBy) {
   const criteria = {};
-  if (filterBy.txt) {
-    const txtCriteria = { $regex: filterBy.txt, $options: 'i' };
+  if (filterBy.searchName) {
+    const txtCriteria = { $regex: filterBy.searchName, $options: 'i' };
     criteria.$or = [
       {
         username: txtCriteria,

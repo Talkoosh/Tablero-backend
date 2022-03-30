@@ -21,3 +21,47 @@
 3/29/2022, 4:42:15 PM - INFO - Server is running on port: 3030 
 3/29/2022, 4:42:18 PM - INFO - Server is running on port: 3030 
 >>>>>>> be814d5f03d6d605f19587020c89f99fd7c92580
+29.3.2022, 16:45:44 - INFO - Server is running on port: 3030 
+29.3.2022, 19:02:28 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: 0R3r53TvBdEJ06_1lxJLKY_BM42ABA3d)
+30.3.2022, 0:41:09 - INFO - Server is running on port: 3030 
+30.3.2022, 0:42:54 - DEBUG - auth.service - signup with username: shirel543, email: shirelklimenko543@gmail.com (sid: 8lWE9fgWALjJmw05b0ddLb3vwEviGng4)
+30.3.2022, 0:42:54 - DEBUG - auth.route - new account created: {"username":"shirel543","password":"$2b$10$WJTmN1ixWArF0v6n4KTU9evghPErNtanxkVYeAjaU7tWdgCiaVnE6","email":"shirelklimenko543@gmail.com","isAdmin":false,"_id":"62437d5e19c5d83ab41d3b9f"} (sid: 8lWE9fgWALjJmw05b0ddLb3vwEviGng4)
+30.3.2022, 0:42:54 - DEBUG - auth.service - login with email: shirelklimenko543@gmail.com (sid: 8lWE9fgWALjJmw05b0ddLb3vwEviGng4)
+30.3.2022, 0:55:26 - DEBUG - auth.service - login with email: shirelklimenko543@walla.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:26 - ERROR - Failed to Login Invalid email or password (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:33 - DEBUG - auth.service - login with email: Shirelklimenko543@walla.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:33 - ERROR - Failed to Login Invalid email or password (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:38 - DEBUG - auth.service - login with email: Shirelklimenko543@walla.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:39 - ERROR - Failed to Login Invalid email or password (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:44 - DEBUG - auth.service - login with email: shirelklimenko543@walla.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:55:45 - ERROR - Failed to Login Invalid email or password (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:56:13 - DEBUG - auth.service - login with email: Shirelklimenko543@gmail.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:56:14 - ERROR - Failed to Login Invalid email or password (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:56:16 - DEBUG - auth.service - login with email: Shirelklimenko543@gmail.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:56:16 - ERROR - Failed to Login Invalid email or password (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 0:56:19 - DEBUG - auth.service - login with email: shirelklimenko543@gmail.com (sid: 7LxpV7EJGy_ZW597FHKX8p874qhVg0jX)
+30.3.2022, 10:40:33 - INFO - Server is running on port: 3030 
+30.3.2022, 16:57:41 - INFO - Server is running on port: 3030 
+30.3.2022, 16:57:43 - INFO - Server is running on port: 3030 
+30.3.2022, 16:57:46 - INFO - Server is running on port: 3030 
+30.3.2022, 16:58:14 - INFO - Server is running on port: 3030 
+30.3.2022, 16:58:45 - INFO - Server is running on port: 3030 
+30.3.2022, 17:00:33 - INFO - Server is running on port: 3030 
+30.3.2022, 17:00:52 - INFO - Server is running on port: 3030 
+30.3.2022, 17:01:08 - INFO - Server is running on port: 3030 
+30.3.2022, 17:01:25 - INFO - Server is running on port: 3030 
+30.3.2022, 17:03:34 - INFO - Server is running on port: 3030 
+30.3.2022, 17:04:00 - INFO - Server is running on port: 3030 
+30.3.2022, 17:04:26 - INFO - Server is running on port: 3030 
+30.3.2022, 17:05:01 - DEBUG - auth.service - signup with username: Admin1, email: Admin1@gmail.com (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:05:01 - DEBUG - auth.route - new account created: {"username":"Admin1","password":"$2b$10$Zdp5Z0NWGv7f9t7p/1ZRQ.ZSzYFu9kbK.Qr6Q5Ce6KmqaYD1.rG2.","email":"Admin1@gmail.com","isAdmin":false,"_id":"6244638d8f88657ac78489b1"} (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:05:01 - DEBUG - auth.service - login with email: Admin1@gmail.com (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:06:33 - DEBUG - auth.service - signup with username: bar, email: nati@gmail.com (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:06:34 - DEBUG - auth.route - new account created: {"username":"bar","password":"$2b$10$b2UFU1q2kDR3UOPhybjJW.vkaAaI6Kdqh93BwPOA42duOl4TwXws6","email":"nati@gmail.com","isAdmin":false,"_id":"624463ea8f88657ac78489b8"} (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:06:34 - DEBUG - auth.service - login with email: nati@gmail.com (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:06:45 - DEBUG - auth.service - signup with username: nati, email: bar@gmail.com (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:06:45 - DEBUG - auth.route - new account created: {"username":"nati","password":"$2b$10$6nN1vaaMQdovGizu.BQEk.A/liH5//UdKS.X4.MLrqlmceIds1AE2","email":"bar@gmail.com","isAdmin":false,"_id":"624463f58f88657ac78489bb"} (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:06:45 - DEBUG - auth.service - login with email: bar@gmail.com (sid: kHub4h-6MxzBFZ-5xiKwWS_a_BZPFGT6)
+30.3.2022, 17:07:24 - INFO - Server is running on port: 3030 
+30.3.2022, 17:07:36 - INFO - Server is running on port: 3030 
+30.3.2022, 17:14:49 - INFO - Server is running on port: 3030 
