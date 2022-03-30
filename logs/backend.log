@@ -65,3 +65,16 @@
 30.3.2022, 17:07:24 - INFO - Server is running on port: 3030 
 30.3.2022, 17:07:36 - INFO - Server is running on port: 3030 
 30.3.2022, 17:14:49 - INFO - Server is running on port: 3030 
+30.3.2022, 17:22:14 - INFO - Server is running on port: 3030 
+30.3.2022, 17:23:49 - INFO - Server is running on port: 3030 
+30.3.2022, 19:31:37 - DEBUG - auth.service - signup with username: new, email: new@a.com (sid: tk1bvwrvwdDjmaKeeGCsRK0H2CWH1RYe)
+30.3.2022, 19:31:37 - DEBUG - auth.route - new account created: {"username":"new","password":"$2b$10$/zYv.YoWePwAFtkc//Tu9.h.LDc0rHo.XpWlN5dhFSUkq1WRc/UZq","email":"new@a.com","isAdmin":false,"_id":"624485e991b7ce7ea4cb62a7"} (sid: tk1bvwrvwdDjmaKeeGCsRK0H2CWH1RYe)
+30.3.2022, 19:31:37 - DEBUG - auth.service - login with email: new@a.com (sid: tk1bvwrvwdDjmaKeeGCsRK0H2CWH1RYe)
+30.3.2022, 19:38:42 - INFO - Server is running on port: 3030 
+30.3.2022, 19:39:05 - INFO - Server is running on port: 3030 
+30.3.2022, 19:39:22 - INFO - Server is running on port: 3030 
+30.3.2022, 19:39:37 - INFO - Server is running on port: 3030 
+30.3.2022, 19:39:50 - INFO - Server is running on port: 3030 
+30.3.2022, 19:40:10 - DEBUG - auth.service - signup with username: 222, email: 2@gmail.com (sid: zohTwh1Dnp3Nc4ebrRgjy-q0rvtN5jlN)
+30.3.2022, 19:40:11 - DEBUG - auth.route - new account created: {"username":"222","password":"$2b$10$x0hIuPA2bvagxxKSVHIlxOR39cSldL0.UPcG.nDH939yYYHaaIbs6","email":"2@gmail.com","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"624487ebf68a8806df96a38b"} (sid: zohTwh1Dnp3Nc4ebrRgjy-q0rvtN5jlN)
+30.3.2022, 19:40:11 - DEBUG - auth.service - login with email: 2@gmail.com (sid: zohTwh1Dnp3Nc4ebrRgjy-q0rvtN5jlN)

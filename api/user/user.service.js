@@ -25,7 +25,6 @@ async function query(filterBy = {}) {
       // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
       return user;
     });
-    if (users.length === collection.length) return []
     return users;
   } catch (err) {
     logger.error('cannot find users', err);
@@ -110,6 +109,7 @@ async function add(user) {
       password: user.password,
       email: user.email,
       isAdmin: false,
+      imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU'
     };
     const collection = await dbService.getCollection('user');
     await collection.insertOne(userToAdd);
