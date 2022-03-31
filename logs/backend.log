@@ -78,3 +78,25 @@
 30.3.2022, 19:40:10 - DEBUG - auth.service - signup with username: 222, email: 2@gmail.com (sid: zohTwh1Dnp3Nc4ebrRgjy-q0rvtN5jlN)
 30.3.2022, 19:40:11 - DEBUG - auth.route - new account created: {"username":"222","password":"$2b$10$x0hIuPA2bvagxxKSVHIlxOR39cSldL0.UPcG.nDH939yYYHaaIbs6","email":"2@gmail.com","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"624487ebf68a8806df96a38b"} (sid: zohTwh1Dnp3Nc4ebrRgjy-q0rvtN5jlN)
 30.3.2022, 19:40:11 - DEBUG - auth.service - login with email: 2@gmail.com (sid: zohTwh1Dnp3Nc4ebrRgjy-q0rvtN5jlN)
+30.3.2022, 19:43:20 - INFO - Server is running on port: 3030 
+30.3.2022, 20:21:44 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+30.3.2022, 20:54:24 - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+30.3.2022, 20:54:24 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+30.3.2022, 20:55:56 - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+30.3.2022, 20:55:56 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+30.3.2022, 21:01:27 - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+30.3.2022, 21:01:27 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 7K_0IQegZJEqcVnaKanLNf1-HEEMwGeb)
+31.3.2022, 8:45:31 - INFO - Server is running on port: 3030 
+31.3.2022, 8:48:44 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: BIbx3C7nYedq6q8PIzTu24IZlkxLfc_E)
+31.3.2022, 9:27:50 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: kOig-CxNhGukpDmo5fzTc7dO7tRCsuZL)
+31.3.2022, 9:35:31 - DEBUG - auth.service - login with email: tomer@kk.com (sid: kOig-CxNhGukpDmo5fzTc7dO7tRCsuZL)
+31.3.2022, 12:36:38 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: BIbx3C7nYedq6q8PIzTu24IZlkxLfc_E)
+31.3.2022, 12:38:55 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: BIbx3C7nYedq6q8PIzTu24IZlkxLfc_E)
+31.3.2022, 13:09:14 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: BIbx3C7nYedq6q8PIzTu24IZlkxLfc_E)
+31.3.2022, 15:25:40 - INFO - Server is running on port: 3030 
+31.3.2022, 15:27:24 - INFO - Server is running on port: 3030 
+31.3.2022, 15:27:59 - INFO - Server is running on port: 3030 
+31.3.2022, 15:28:22 - INFO - Server is running on port: 3030 
+31.3.2022, 15:53:27 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: IAHOVGSZZfGlBQO7PrtErjJtU9ASj1Tg)
+31.3.2022, 17:33:26 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: IAHOVGSZZfGlBQO7PrtErjJtU9ASj1Tg)
+31.3.2022, 21:05:39 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: IAHOVGSZZfGlBQO7PrtErjJtU9ASj1Tg)
