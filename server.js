@@ -16,6 +16,7 @@ const session = expressSession({
   cookie: { secure: false },
 });
 app.use(express.json());
+app.use(express.static('public'))
 app.use(session);
 
 if (process.env.NODE_ENV === 'production') {
@@ -27,6 +28,7 @@ if (process.env.NODE_ENV === 'production') {
       'http://localhost:8080',
       'http://127.0.0.1:3000',
       'http://localhost:3000',
+      'http://localhost:3030',
     ],
     credentials: true,
   };
