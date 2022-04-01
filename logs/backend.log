@@ -115,3 +115,6 @@
 1.4.2022, 12:39:19 - DEBUG - auth.route - new account created: {"username":"ttt","password":"$2b$10$Lehrh9cocxM77cXq5dx8leSpN/8qyL7F.9QjO4thvEq4UnTBYDWp.","email":"t@gmail.com","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"6246c8470cb01d5159efe303"} (sid: iPIlhmbAmcYbBeIO4_DCpAoC8SQ2jm-W)
 1.4.2022, 12:39:19 - DEBUG - auth.service - login with email: t@gmail.com (sid: iPIlhmbAmcYbBeIO4_DCpAoC8SQ2jm-W)
 1.4.2022, 12:39:55 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: iPIlhmbAmcYbBeIO4_DCpAoC8SQ2jm-W)
+1.4.2022, 13:28:00 - INFO - Server is running on port: 3030 
+1.4.2022, 13:28:12 - INFO - Server is running on port: 3030 
+1.4.2022, 13:43:48 - INFO - Server is running on port: 3030 
