@@ -124,3 +124,34 @@
 1.4.2022, 14:25:18 - INFO - Server is running on port: 3030 
 1.4.2022, 14:25:32 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: -tetBLbN8axHBeVKbwS1eqc_F7NFDe_z)
 1.4.2022, 14:30:09 - INFO - Server is running on port: 3030 
+1.4.2022, 14:58:12 - INFO - Server is running on port: 3030 
+1.4.2022, 15:04:12 - INFO - Server is running on port: 3030 
+1.4.2022, 15:17:05 - INFO - Server is running on port: 3030 
+1.4.2022, 15:21:34 - INFO - Server is running on port: 3030 
+1.4.2022, 15:43:14 - DEBUG - auth.service - signup with username: Ben, email: undefined (sid: MvWHHDs6k9g2Aq9viKeSR_zqfR_nWULy)
+1.4.2022, 15:43:14 - ERROR - Failed to signup email, username and password are required! (sid: MvWHHDs6k9g2Aq9viKeSR_zqfR_nWULy)
+1.4.2022, 15:43:30 - DEBUG - auth.service - signup with username: Ben, email: Ben Isayev (sid: MvWHHDs6k9g2Aq9viKeSR_zqfR_nWULy)
+1.4.2022, 15:43:33 - DEBUG - auth.route - new account created: {"username":"Ben","password":"$2b$10$aLMh.9rwOjBkBVM9S0jyeOgzIVovoGcB7fkSdVIdX8egxtCCXiIA2","email":"Ben Isayev","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"6246f374d907818f7ad869cf"} (sid: MvWHHDs6k9g2Aq9viKeSR_zqfR_nWULy)
+1.4.2022, 15:43:33 - DEBUG - auth.service - login with email: Ben Isayev (sid: MvWHHDs6k9g2Aq9viKeSR_zqfR_nWULy)
+1.4.2022, 16:11:25 - DEBUG - auth.service - login with email: Admin@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:14:20 - DEBUG - auth.service - signup with username: a, email: a@a.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:14:20 - DEBUG - auth.route - new account created: {"username":"a","password":"$2b$10$iVBlZiYwiixR/Rk5MPvhi.vBxAgrZX8q//ixRaqTEByZ7pKz74Y6S","email":"a@a.com","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"6246faacd907818f7ad869d0"} (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:14:20 - DEBUG - auth.service - login with email: a@a.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:27:25 - DEBUG - auth.service - login with email: a@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:27:25 - ERROR - Failed to Login Invalid email or password (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:27:46 - DEBUG - auth.service - login with email: a@a.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:27:47 - ERROR - Failed to Login Invalid email or password (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:33:43 - DEBUG - auth.service - signup with username: Ben, email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:33:43 - DEBUG - auth.route - new account created: {"username":"Ben","password":"$2b$10$93wSoWZdVJyjN1wydZPayu/SNG0N1X2M0SRcvGTIlH2HZB4SIs1pq","email":"benisayev@gmail.com","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"6246ff37d907818f7ad869d2"} (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:33:43 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:34:00 - DEBUG - auth.service - signup with username: Ben isayev, email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:34:00 - ERROR - Failed to signup Email or User is already used! (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:35:14 - DEBUG - auth.service - signup with username: Ben isayev, email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:35:15 - ERROR - Failed to signup Email or User is already used! (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:36:05 - DEBUG - auth.service - signup with username: Ben isayev, email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:36:06 - ERROR - Failed to signup Email or User is already used! (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:36:11 - DEBUG - auth.service - signup with username: Ben isaye, email: benisaye@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:36:11 - DEBUG - auth.route - new account created: {"username":"Ben isaye","password":"$2b$10$YPYxA1t4pHYZ9/7PL8gQ3uy6/XdjeqYNXuPpHEKLMPBu7vCgBiVPe","email":"benisaye@gmail.com","isAdmin":false,"imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU","_id":"6246ffcbd907818f7ad869d4"} (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:36:11 - DEBUG - auth.service - login with email: benisaye@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 16:36:57 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)
+1.4.2022, 17:58:03 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: 9u8BCCsLXSjsrcIGmvNfVEB3BSVmA8BA)

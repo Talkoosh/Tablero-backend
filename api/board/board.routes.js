@@ -10,7 +10,6 @@ const {
   addBoard,
   updateBoard,
   removeBoard,
-  addReview,
 } = require('./board.controller');
 const router = express.Router();
 
