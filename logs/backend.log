@@ -121,3 +121,8 @@
 3.4.2022, 19:46:18 - INFO - Server is running on port: 3030 
 3.4.2022, 19:48:08 - INFO - Server is running on port: 3030 
 3.4.2022, 19:57:01 - INFO - Server is running on port: 3030 
+3.4.2022, 20:06:59 - INFO - Server is running on port: 3030 
+3.4.2022, 20:12:36 - INFO - Server is running on port: 3030 
+3.4.2022, 23:24:25 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: nDBoDfWlpM1vXHBPZEFxlpCXmDXLymBo)
+3.4.2022, 23:25:43 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: 420kbVrVxGOVU3jcc2cZx_VFaSSWW8YH)
+3.4.2022, 23:32:05 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: nDBoDfWlpM1vXHBPZEFxlpCXmDXLymBo)
