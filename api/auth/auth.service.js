@@ -15,11 +15,6 @@ async function login(email, password) {
   return user;
 }
 
-// (async ()=>{
-//     await signup('bubu', '123', 'Bubu Bi')
-//     await signup('mumu', '123', 'Mumu Maha')
-// })()
-
 async function signup(username, password, email) {
   const saltRounds = 10;
 
@@ -34,10 +29,27 @@ async function signup(username, password, email) {
   if (userExistMail || userExistUsername) return Promise.reject('Email or User is already used!');
 
   const hash = await bcrypt.hash(password, saltRounds);
-  return userService.add({ username, password: hash, email });
+  return userService.add({ username, password: hash, email});
+}
+
+async function googleLogin(user) {
+  try {
+    const googleUser = await userService.getByGoogleId(user.googleId)
+
+    if (googleUser) {
+      googleUser._id = googleUser._id.toString();
+      return googleUser;
+    } else {
+      const hash = await bcrypt.hash(user.password, 10);
+      return userService.add({ username: user.username, password: hash, email: user.email, googleId: user.googleId, imgUrl: user.imgUrl});
+    }
+  } catch (err) {
+    throw err;
+  }
 }
 
 module.exports = {
   signup,
   login,
+  googleLogin
 };

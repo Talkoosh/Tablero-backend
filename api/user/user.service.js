@@ -10,6 +10,7 @@ module.exports = {
   remove,
   update,
   add,
+  getByGoogleId
 };
 
 async function query(filterBy = {}) {
@@ -42,6 +43,19 @@ async function getById(userId) {
     throw err;
   }
 }
+
+async function getByGoogleId(googleId) {
+  try {
+    const collection = await dbService.getCollection('user');
+    const user = await collection.findOne({googleId});
+    if(user) delete user.password;
+    return user;
+  } catch (err) {
+    logger.error(`whilsx;cms;kxcmklsmclksmlkmokwme finding users`, err)
+    throw err;
+  }
+}
+
 async function getByUsername(username) {
   try {
     const collection = await dbService.getCollection('user');
@@ -99,8 +113,14 @@ async function add(user) {
       password: user.password,
       email: user.email,
       isAdmin: false,
-      imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6gPdTJZBPtbYx3HAuVX5yVanr0fMp18qnw&usqp=CAU'
+      imgUrl: '',
+      googleId: null
     };
+    if (user.googleId) {
+      userToAdd.imgUrl = user.imgUrl;
+      userToAdd.googleId = user.googleId;
+    }
+
     const collection = await dbService.getCollection('user');
     await collection.insertOne(userToAdd);
     return userToAdd;

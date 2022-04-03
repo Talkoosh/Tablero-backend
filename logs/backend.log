@@ -1,0 +1,120 @@
+4/3/2022, 6:12:23 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:13:20 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:32:33 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:33:07 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:34:29 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:35:16 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:37:28 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:37:36 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:37:55 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:38:08 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:40:21 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:41:57 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:42:00 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:42:39 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:42:48 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:43:05 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:43:11 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:43:26 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:43:53 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:47:06 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:47:16 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:50:31 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:50:35 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:50:49 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:51:24 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:51:44 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:51:46 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:54:07 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:54:12 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:54:28 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:54:42 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:55:01 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:56:01 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:56:14 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:56:23 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:56:52 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:57:28 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:57:37 PM - ERROR - Failed to Login ReferenceError: googleUser is not defined (sid: n9N0zOz2DyAxa5kJr76jcFtI5g4yXqT9)
+4/3/2022, 6:57:54 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:58:20 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:58:43 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:58:47 PM - INFO - Server is running on port: 3030 
+4/3/2022, 6:59:59 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:00:30 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:01:06 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:01:16 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:01:20 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:01:31 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:02:05 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:03:04 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:03:06 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:04:09 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:04:37 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:05:03 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:05:24 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:06:43 PM - ERROR - Failed to Login ReferenceError: userId is not defined (sid: PXIiFyjmEmR3JspS-eWTsCSPxzS7zNbX)
+4/3/2022, 7:07:59 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:08:03 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:08:25 PM - ERROR - while finding users | TypeError: Cannot convert undefined or null to object (sid: z9BlYurCEXvfI67Wdoh4ZzHSIkjPosnt)
+4/3/2022, 7:08:25 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: z9BlYurCEXvfI67Wdoh4ZzHSIkjPosnt)
+4/3/2022, 7:09:00 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:09:11 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:09:32 PM - ERROR - while finding users | TypeError: Cannot convert undefined or null to object (sid: -xxd4OcP8rmBnDrYPEYjDqe2B6YAuoMG)
+4/3/2022, 7:09:32 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: -xxd4OcP8rmBnDrYPEYjDqe2B6YAuoMG)
+4/3/2022, 7:09:51 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:09:51 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:10:12 PM - ERROR - while finding users | TypeError: Cannot convert undefined or null to object (sid: _6AO03fWmXO8NO4XyhzEe6Yf6y-UcH_x)
+4/3/2022, 7:10:12 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: _6AO03fWmXO8NO4XyhzEe6Yf6y-UcH_x)
+4/3/2022, 7:10:41 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:10:42 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:11:03 PM - ERROR - while finding users | TypeError: Cannot convert undefined or null to object (sid: 49CaPk_fxtz3kA59AHGvEfj-P8cGMLDR)
+4/3/2022, 7:11:03 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: 49CaPk_fxtz3kA59AHGvEfj-P8cGMLDR)
+4/3/2022, 7:11:14 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:12:52 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:12:53 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:13:14 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:16:37 PM - ERROR - while finding users | TypeError: Cannot convert undefined or null to object (sid: 6sgEjb6bVsfUpFOwTr6mVV7Ipi9HzB9f)
+4/3/2022, 7:16:37 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: 6sgEjb6bVsfUpFOwTr6mVV7Ipi9HzB9f)
+4/3/2022, 7:17:41 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:19:08 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:19:08 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:19:31 PM - ERROR - while finding users | TypeError: Cannot convert undefined or null to object (sid: 85nqjRs_85JPZ-1Q7fCXt7FrhsB9rrn1)
+4/3/2022, 7:19:31 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: 85nqjRs_85JPZ-1Q7fCXt7FrhsB9rrn1)
+4/3/2022, 7:20:08 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:20:30 PM - ERROR - whilsx;cms;kxcmklsmclksmlkmokwme finding users | TypeError: Cannot convert undefined or null to object (sid: xjIu2EoFnSlPyB4Yp2W25WbQxgrwuC8_)
+4/3/2022, 7:20:30 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: xjIu2EoFnSlPyB4Yp2W25WbQxgrwuC8_)
+4/3/2022, 7:22:10 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:22:26 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:29 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:29 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:29 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:30 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:30 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:41 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:41 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:22:42 PM - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: cnA1tZpSlHZ0Hk9sbVW-AnPxcS7zkN1P)
+4/3/2022, 7:24:11 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:26:53 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:27:18 PM - ERROR - whilsx;cms;kxcmklsmclksmlkmokwme finding users | TypeError: Cannot convert undefined or null to object (sid: Jk3GjkCigxXd7avh8RNKbzd_U_PAYhKO)
+4/3/2022, 7:27:18 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: Jk3GjkCigxXd7avh8RNKbzd_U_PAYhKO)
+4/3/2022, 7:27:51 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:28:14 PM - ERROR - whilsx;cms;kxcmklsmclksmlkmokwme finding users | TypeError: Cannot convert undefined or null to object (sid: FMyxniwHg42L68lH74o2ehxp3-KMxmh_)
+4/3/2022, 7:28:14 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: FMyxniwHg42L68lH74o2ehxp3-KMxmh_)
+4/3/2022, 7:28:38 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:29:00 PM - ERROR - whilsx;cms;kxcmklsmclksmlkmokwme finding users | TypeError: Cannot convert undefined or null to object (sid: ovUhuj2DZS4k25gEo5vhCoOqUkw7iBLp)
+4/3/2022, 7:29:00 PM - ERROR - Failed to Login TypeError: Cannot convert undefined or null to object (sid: ovUhuj2DZS4k25gEo5vhCoOqUkw7iBLp)
+4/3/2022, 7:29:54 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:30:36 PM - ERROR - Failed to Login Error: data and salt arguments required (sid: oB4Eh4reX-ge3yf81EIPwQCba36bAHD1)
+4/3/2022, 7:30:54 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:31:40 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:31:49 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:37:49 PM - INFO - Server is running on port: 3030 
+4/3/2022, 7:37:58 PM - INFO - Server is running on port: 3030 
