@@ -168,3 +168,5 @@
 3.4.2022, 9:19:19 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: d5qVjvQmz9nfWXKzs4LrhMfuByNOj9UQ)
 3.4.2022, 9:31:49 - INFO - Server is running on port: 3030 
 3.4.2022, 9:37:04 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: Dt7GaOH2TAC7ssrbanja_UKkETUXBZf9)
+3.4.2022, 10:21:10 - INFO - Server is running on port: 3030 
+3.4.2022, 10:21:31 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: CznOa4a2jPVvyzN3H__SOEJGEMugavQ9)
