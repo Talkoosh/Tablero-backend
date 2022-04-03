@@ -12,7 +12,7 @@ function connectSockets(http, session) {
   gIo.on('connection', (socket) => {
     socket.on('disconnect', (socket) => {
       console.log('Someone disconnected');
-    });             
+    });
     socket.on('board-entered', (boardId) => {
       if (socket.currBoardId === boardId) return;
       if (socket.currBoardId) {
@@ -28,6 +28,17 @@ function connectSockets(http, session) {
       // gIo.to(socket.currBoardId).emit('chat addMsg', msg);
       socket.broadcast.to(socket.currBoardId).emit('update-board');
 
+    });
+    socket.on('task-entered', taskId => {
+      if (socket.currTaskId === taskId) return;
+      if (socket.currTaskId) {
+        socket.leave(socket.currTaskId);
+      }
+      socket.join(taskId);
+      socket.currTaskId = taskId;
+    });
+    socket.on('task-updated', (task) => {
+      socket.broadcast.to(socket.currTaskId).emit('update-task');
     });
   });
 
