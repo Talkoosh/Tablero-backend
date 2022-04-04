@@ -126,3 +126,11 @@
 3.4.2022, 23:24:25 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: nDBoDfWlpM1vXHBPZEFxlpCXmDXLymBo)
 3.4.2022, 23:25:43 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: 420kbVrVxGOVU3jcc2cZx_VFaSSWW8YH)
 3.4.2022, 23:32:05 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: nDBoDfWlpM1vXHBPZEFxlpCXmDXLymBo)
+4.4.2022, 10:10:20 - INFO - Server is running on port: 3030 
+4.4.2022, 10:10:43 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: tRyWHwpVKMQDsLknURGJNfWpk6fPm46u)
+4.4.2022, 10:57:09 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: tRyWHwpVKMQDsLknURGJNfWpk6fPm46u)
+4.4.2022, 11:02:54 - DEBUG - auth.service - signup with username: Gibor, email: giborshelima@gmail.com (sid: tRyWHwpVKMQDsLknURGJNfWpk6fPm46u)
+4.4.2022, 11:02:54 - DEBUG - auth.route - new account created: {"username":"Gibor","password":"$2b$10$5HjiiBs215DeHOYuGfdhKONWtcc6P9sec1GRaDLkOaSuGxQPxYN2i","email":"giborshelima@gmail.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"624aa62e6849c822b43b0a4f"} (sid: tRyWHwpVKMQDsLknURGJNfWpk6fPm46u)
+4.4.2022, 11:02:54 - DEBUG - auth.service - login with email: giborshelima@gmail.com (sid: tRyWHwpVKMQDsLknURGJNfWpk6fPm46u)
+4.4.2022, 11:15:19 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: aApPGwCrWXPZ5itRnL7Me3zn1rXuoJjE)
+4.4.2022, 11:19:55 - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: tRyWHwpVKMQDsLknURGJNfWpk6fPm46u)
