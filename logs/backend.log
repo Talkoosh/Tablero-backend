@@ -138,3 +138,7 @@
 4.4.2022, 14:32:08 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: jiXHN84_-3CP5Fm-ZGH6L2m0uZFLYcjU)
 4.4.2022, 14:32:46 - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: jiXHN84_-3CP5Fm-ZGH6L2m0uZFLYcjU)
 4.4.2022, 14:32:46 - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: jiXHN84_-3CP5Fm-ZGH6L2m0uZFLYcjU)
+5.4.2022, 11:38:13 - INFO - Server is running on port: 3030 
+9.4.2022, 12:28:31 - INFO - Server is running on port: 3030 
+9.4.2022, 12:28:54 - DEBUG - auth.service - login with email: benisayev@gmail.com (sid: bL1RzLAA3328w1tfsaKwDX1D48U3Am1Z)
+20.4.2022, 11:23:44 - INFO - Server is running on port: 3030 
