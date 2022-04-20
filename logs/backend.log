@@ -27,3 +27,9 @@
 4/8/2022, 6:13:32 PM - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 4Nn_dI_3MhajRP45sYXlcUp3Jq3DzP2L)
 4/8/2022, 6:13:32 PM - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: 4Nn_dI_3MhajRP45sYXlcUp3Jq3DzP2L)
 4/8/2022, 6:23:19 PM - INFO - Server is running on port: 3030 
+4/20/2022, 11:14:09 AM - INFO - Server is running on port: 3030 
+4/20/2022, 11:14:37 AM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: Azgtxw8ueDa_aCUGyNro1rGBbk48_hY1)
+4/20/2022, 11:15:55 AM - INFO - Server is running on port: 3030 
+4/20/2022, 11:15:57 AM - ERROR - while finding board undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: uZyuGWHnAWBAntzoMcRRENJAvvk5E0qe)
+4/20/2022, 11:15:57 AM - ERROR - Failed to get board | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters (sid: uZyuGWHnAWBAntzoMcRRENJAvvk5E0qe)
+4/20/2022, 11:16:09 AM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: uZyuGWHnAWBAntzoMcRRENJAvvk5E0qe)
