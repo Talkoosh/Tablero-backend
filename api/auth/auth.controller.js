@@ -54,7 +54,6 @@ async function getLoggedinUser(req, res) {
 async function googleLogin(req, res) {
   try {
     const user = await authService.googleLogin(req.body);
-    console.log('AUTH CONTROLLER', user);
     req.session.user = user;
     res.json(user);
   } catch (err) {
