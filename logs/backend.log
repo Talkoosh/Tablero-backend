@@ -80,3 +80,16 @@
 1/11/2023, 10:04:37 PM - DEBUG - auth.service - signup with username: bdika, email: asldjasda@gmail.com (sid: feu67MTlzgo4l9KFeb8OcSukI8-MDVL9)
 1/11/2023, 10:04:40 PM - DEBUG - auth.route - new account created: {"username":"bdika","password":"$2b$10$IB1KYvEGTleNbli9qscODevQfK8Hn5wQKMjFMcDGj9tczinV86xfa","email":"asldjasda@gmail.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"63bf1657b664e7d811ac9cec"} (sid: feu67MTlzgo4l9KFeb8OcSukI8-MDVL9)
 1/11/2023, 10:04:40 PM - DEBUG - auth.service - login with email: asldjasda@gmail.com (sid: feu67MTlzgo4l9KFeb8OcSukI8-MDVL9)
+1/11/2023, 10:45:49 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:49:43 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:52:26 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:52:59 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:53:07 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:53:31 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:55:44 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:56:28 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:56:58 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:57:55 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:57:57 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:57:57 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:58:25 PM - INFO - Server is running on port: 3030 
