@@ -1,0 +1,82 @@
+5/1/2022, 12:54:47 PM - INFO - Server is running on port: 3030 
+5/1/2022, 12:55:04 PM - DEBUG - auth.service - login with email: kooshtal@gmail.com (sid: W6ih8Pbzc1Lhmbec-ml-jmYhjcy-3IhM)
+1/11/2023, 9:31:27 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:32:19 PM - DEBUG - auth.service - signup with username: Talkoosh, email: kooshtal@gmail.com (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:19 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:24 PM - DEBUG - auth.service - signup with username: Talkoosh, email: bdika@gmail.com (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:24 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:30 PM - DEBUG - auth.service - signup with username: Talkoosh, email: halasshachrer@gmail.com (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:30 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:35 PM - DEBUG - auth.service - signup with username: Talkooshbdika, email: halasshachrer@gmail.com (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:35 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:39 PM - DEBUG - auth.service - signup with username: 03019301, email: halasshachrer@gmail.com (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:39 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:43 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:32:43 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: -Lp7FvLjx_P7ktbWwzrNavpIrr94wygc)
+1/11/2023, 9:34:05 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:34:09 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: tKGkRA2OMrMyHSIpQBtiRVDN2-3-JLOS)
+1/11/2023, 9:34:09 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: tKGkRA2OMrMyHSIpQBtiRVDN2-3-JLOS)
+1/11/2023, 9:36:21 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: tKGkRA2OMrMyHSIpQBtiRVDN2-3-JLOS)
+1/11/2023, 9:36:21 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: tKGkRA2OMrMyHSIpQBtiRVDN2-3-JLOS)
+1/11/2023, 9:36:56 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:36:57 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:36:58 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:36:58 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:37:58 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:38:01 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: 38-eNdveaeOs6yUJsu7qGkk3oAp81XIJ)
+1/11/2023, 9:38:01 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: 38-eNdveaeOs6yUJsu7qGkk3oAp81XIJ)
+1/11/2023, 9:38:12 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:39:53 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:40:16 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:40:19 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: QRljb6nRBFxCjWNjCzkeWoC-s37F3HIZ)
+1/11/2023, 9:40:19 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: QRljb6nRBFxCjWNjCzkeWoC-s37F3HIZ)
+1/11/2023, 9:40:29 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:40:35 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:40:46 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:40:48 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: mZK3R988C9e2hoj0lnFkpT6KiL9RkHMP)
+1/11/2023, 9:40:48 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: mZK3R988C9e2hoj0lnFkpT6KiL9RkHMP)
+1/11/2023, 9:41:01 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:41:03 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: k7FCO-CJd5Q5HF6GedoTl1Z_YjrxpB2H)
+1/11/2023, 9:41:03 PM - ERROR - Failed to signup ReferenceError: username is not defined (sid: k7FCO-CJd5Q5HF6GedoTl1Z_YjrxpB2H)
+1/11/2023, 9:42:29 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:42:31 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:42:39 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: hM7FdGfCf2by69nBzv1_eHmLH-RVd5Nt)
+1/11/2023, 9:42:39 PM - ERROR - while finding user | ReferenceError: logger is not defined (sid: hM7FdGfCf2by69nBzv1_eHmLH-RVd5Nt)
+1/11/2023, 9:42:39 PM - ERROR - Failed to signup ReferenceError: logger is not defined (sid: hM7FdGfCf2by69nBzv1_eHmLH-RVd5Nt)
+1/11/2023, 9:44:30 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:44:36 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:46:12 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:46:14 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: d5O0t246AvxvSJ97G-Xchr-5baxCIesM)
+1/11/2023, 9:46:14 PM - ERROR - Failed to signup ReferenceError: logger is not defined (sid: d5O0t246AvxvSJ97G-Xchr-5baxCIesM)
+1/11/2023, 9:48:29 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:48:31 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:48:32 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: YdIy3yGH1U8QU5GOEpl_BSWhX6XaPz0X)
+1/11/2023, 9:48:32 PM - ERROR - Failed to signup ReferenceError: logger is not defined (sid: YdIy3yGH1U8QU5GOEpl_BSWhX6XaPz0X)
+1/11/2023, 9:48:38 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:48:40 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:48:41 PM - DEBUG - auth.service - signup with username: 03019301, email: asldjasda@gmail.com (sid: adMHRBa7jF0s84G-s5B5iiGqsv5IMgXe)
+1/11/2023, 9:48:41 PM - ERROR - Failed to signup ReferenceError: logger is not defined (sid: adMHRBa7jF0s84G-s5B5iiGqsv5IMgXe)
+1/11/2023, 9:48:48 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:49:57 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:50:01 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:50:05 PM - DEBUG - auth.service - signup with username: bdika, email: asldjasda@gmail.com (sid: BJuIT7iqkxH0TRsS-wFg0LUrPS52d1gd)
+1/11/2023, 9:50:05 PM - ERROR - Failed to signup TypeError: logger.error is not a function (sid: BJuIT7iqkxH0TRsS-wFg0LUrPS52d1gd)
+1/11/2023, 9:50:47 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:50:48 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:50:49 PM - INFO - Server is running on port: 3030 
+1/11/2023, 9:50:50 PM - DEBUG - auth.service - signup with username: bdika, email: asldjasda@gmail.com (sid: i9lbxxvHNPnSVP4PFQIxjlZowWQw17Ni)
+1/11/2023, 9:50:50 PM - ERROR - Cannot Connect to DB | Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.sjfyq.mongodb.net (sid: i9lbxxvHNPnSVP4PFQIxjlZowWQw17Ni)
+1/11/2023, 9:50:50 PM - ERROR - Failed to get Mongo collection | Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.sjfyq.mongodb.net (sid: i9lbxxvHNPnSVP4PFQIxjlZowWQw17Ni)
+1/11/2023, 9:50:50 PM - ERROR - Failed to signup Error: querySrv ENOTFOUND _mongodb._tcp.cluster0.sjfyq.mongodb.net (sid: i9lbxxvHNPnSVP4PFQIxjlZowWQw17Ni)
+1/11/2023, 10:00:19 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:00:28 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:00:29 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:00:35 PM - DEBUG - auth.service - signup with username: bdika, email: asldjasda@gmail.com (sid: CHagwdpVtMcZ1o3arR0GbmW07u0pKTFf)
+1/11/2023, 10:01:05 PM - ERROR - Cannot Connect to DB | MongoServerSelectionError: bad auth : authentication failed (sid: CHagwdpVtMcZ1o3arR0GbmW07u0pKTFf)
+1/11/2023, 10:01:05 PM - ERROR - Failed to get Mongo collection | MongoServerSelectionError: bad auth : authentication failed (sid: CHagwdpVtMcZ1o3arR0GbmW07u0pKTFf)
+1/11/2023, 10:01:05 PM - ERROR - Failed to signup MongoServerSelectionError: bad auth : authentication failed (sid: CHagwdpVtMcZ1o3arR0GbmW07u0pKTFf)
+1/11/2023, 10:04:31 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:04:33 PM - INFO - Server is running on port: 3030 
+1/11/2023, 10:04:37 PM - DEBUG - auth.service - signup with username: bdika, email: asldjasda@gmail.com (sid: feu67MTlzgo4l9KFeb8OcSukI8-MDVL9)
+1/11/2023, 10:04:40 PM - DEBUG - auth.route - new account created: {"username":"bdika","password":"$2b$10$IB1KYvEGTleNbli9qscODevQfK8Hn5wQKMjFMcDGj9tczinV86xfa","email":"asldjasda@gmail.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"63bf1657b664e7d811ac9cec"} (sid: feu67MTlzgo4l9KFeb8OcSukI8-MDVL9)
+1/11/2023, 10:04:40 PM - DEBUG - auth.service - login with email: asldjasda@gmail.com (sid: feu67MTlzgo4l9KFeb8OcSukI8-MDVL9)

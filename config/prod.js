@@ -1,4 +1,4 @@
 module.exports = {
   dbURL:
-    'mongodb+srv://benisayev:iphone11tablero@cluster0.sjfyq.mongodb.net/board_db?retryWrites=true&w=majority',
+    'mongodb+srv://mongoDBAccount:74jrxPOzoB7xpwwj@tablero.rd03m95.mongodb.net/?retryWrites=true&w=majority',
 };

@@ -51,7 +51,7 @@ async function getByGoogleId(googleId) {
     if(user) delete user.password;
     return user;
   } catch (err) {
-    logger.error(`whilsx;cms;kxcmklsmclksmlkmokwme finding users`, err)
+    logger.error(`while finding user`, err)
     throw err;
   }
 }
@@ -72,7 +72,7 @@ async function getByEmail(email) {
     const user = await collection.findOne({ email });
     return user;
   } catch (err) {
-    logger.error(`while finding user ${username}`, err);
+    // logger.error(`while finding user`, err);
     throw err;
   }
 }
