@@ -20,6 +20,7 @@ app.use(express.json());
 app.use(express.static('public'))
 app.use(session);
 
+
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.resolve(__dirname, 'public')));
 } else {

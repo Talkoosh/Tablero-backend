@@ -93,3 +93,24 @@
 1/11/2023, 10:57:57 PM - INFO - Server is running on port: 3030 
 1/11/2023, 10:57:57 PM - INFO - Server is running on port: 3030 
 1/11/2023, 10:58:25 PM - INFO - Server is running on port: 3030 
+1/13/2023, 12:44:31 AM - INFO - Server is running on port: 3030 
+1/13/2023, 12:54:10 AM - INFO - Server is running on port: 3030 
+1/13/2023, 12:54:23 AM - INFO - Server is running on port: 3030 
+1/13/2023, 12:54:47 AM - INFO - Server is running on port: 3030 
+1/13/2023, 12:54:57 AM - INFO - Server is running on port: 3030 
+1/13/2023, 12:55:40 AM - INFO - Server is running on port: 3030 
+1/13/2023, 12:56:11 AM - DEBUG - auth.service - signup with username: aaa, email: bbb234234242@df.com (sid: ld71VATZtzSMXs6lEmyGMCfdNYREBmeX)
+1/13/2023, 12:56:16 AM - DEBUG - auth.route - new account created: {"username":"aaa","password":"$2b$10$xhIe1IqB0tp9Ih4g6rP6d.EkFXE966etOqrIjUieWK9t7zIsclLDe","email":"bbb234234242@df.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"63c09010814d05220d2bd3ef"} (sid: ld71VATZtzSMXs6lEmyGMCfdNYREBmeX)
+1/13/2023, 12:56:16 AM - DEBUG - auth.service - login with email: bbb234234242@df.com (sid: ld71VATZtzSMXs6lEmyGMCfdNYREBmeX)
+1/13/2023, 1:48:59 AM - INFO - Server is running on port: 3030 
+1/13/2023, 1:49:17 AM - DEBUG - auth.service - signup with username: asdad, email: asdasd@asda.com (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:49:20 AM - DEBUG - auth.route - new account created: {"username":"asdad","password":"$2b$10$E31Rt2YctXK2UU4agiGHM.VpTfWZ03Oa2uT3Tq3el1LNeMxvR78UW","email":"asdasd@asda.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"63c09c80efd85330e00cd60f"} (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:49:20 AM - DEBUG - auth.service - login with email: asdasd@asda.com (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:50:07 AM - DEBUG - auth.service - signup with username: ashkarauser, email: talkoosh@gmail.com (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:50:08 AM - DEBUG - auth.route - new account created: {"username":"ashkarauser","password":"$2b$10$W3xZ7o21jxQs6ob0S9M9AuEOcoPuEYTT7aaZ/w.sBFUKBzWtDFnKm","email":"talkoosh@gmail.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"63c09cafefd85330e00cd611"} (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:50:08 AM - DEBUG - auth.service - login with email: talkoosh@gmail.com (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:50:53 AM - DEBUG - auth.service - login with email: talkoosh@gmail.com (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:50:53 AM - ERROR - Failed to Login Invalid email or password bcrypt (sid: IETbPEb4MlT8uldjVOihLnuy7AGTR_H2)
+1/13/2023, 1:52:38 AM - INFO - Server is running on port: 3030 
+1/13/2023, 1:54:46 AM - DEBUG - auth.service - login with email: xcxc@gmail.com (sid: nBpB7vPxpgo48azNoJfo0RUwtrFdOBar)
+1/13/2023, 1:54:48 AM - ERROR - Failed to Login Invalid email or password (sid: nBpB7vPxpgo48azNoJfo0RUwtrFdOBar)
