@@ -114,3 +114,11 @@
 1/13/2023, 1:52:38 AM - INFO - Server is running on port: 3030 
 1/13/2023, 1:54:46 AM - DEBUG - auth.service - login with email: xcxc@gmail.com (sid: nBpB7vPxpgo48azNoJfo0RUwtrFdOBar)
 1/13/2023, 1:54:48 AM - ERROR - Failed to Login Invalid email or password (sid: nBpB7vPxpgo48azNoJfo0RUwtrFdOBar)
+1/13/2023, 1:56:44 AM - INFO - Server is running on port: 3030 
+1/13/2023, 1:56:57 AM - DEBUG - auth.service - login with email: sfsdf@gmai.com (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
+1/13/2023, 1:57:00 AM - ERROR - Failed to Login Invalid email or password (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
+1/13/2023, 1:58:07 AM - DEBUG - auth.service - signup with username: bdika, email: bdika@gmail.com (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
+1/13/2023, 1:58:07 AM - DEBUG - auth.route - new account created: {"username":"bdika","password":"$2b$10$yn4MJTvK/QKQWcbt1bd3F.0zidvTpB1p6m2E9bFyDWYQwP83UU0pC","email":"bdika@gmail.com","isAdmin":false,"imgUrl":"","googleId":null,"_id":"63c09e8f7eb23d33b383386b"} (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
+1/13/2023, 1:58:07 AM - DEBUG - auth.service - login with email: bdika@gmail.com (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
+1/13/2023, 1:58:23 AM - DEBUG - auth.service - login with email: bdika@gmail.com (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
+1/13/2023, 1:58:47 AM - DEBUG - auth.service - login with email: bdika@gmail.com (sid: rE63UHZ0MbF6evhriBE_6_utO4fw5vSW)
